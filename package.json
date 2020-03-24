@@ -1,0 +1,56 @@
+{
+  "name": "tvw_test_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.45",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mdbreact": "^4.25.3",
+    "nuka-carousel": "^4.6.4",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-check-auth": "^0.2.0-alpha.2",
+    "react-dom": "^16.12.0",
+    "react-material-ui-carousel": "^1.1.1",
+    "react-md": "^1.14.0",
+    "react-modal": "^3.11.1",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "reactjs-localstorage": "0.0.8",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "dev:front": "react-scripts start",
+    "dev:server": "node server/index.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
